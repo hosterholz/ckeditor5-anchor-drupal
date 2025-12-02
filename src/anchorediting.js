@@ -14,7 +14,7 @@ import { Clipboard } from 'ckeditor5/src/clipboard';
 import AnchorCommand from './anchorcommand';
 import UnanchorCommand from './unanchorcommand';
 import ManualDecorator from './utils/manualdecorator';
-import findAttributeRange from '@ckeditor/ckeditor5-typing/src/utils/findattributerange';
+import { findAttributeRange } from '@ckeditor/ckeditor5-typing/src/utils/findattributerange';
 import { keyCodes } from '@ckeditor/ckeditor5-utils/src/keyboard';
 import { viewToModelPositionOutsideModelElement } from 'ckeditor5/src/widget';
 
